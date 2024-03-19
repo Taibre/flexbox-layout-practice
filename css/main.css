@@ -45,6 +45,7 @@ header .content-wrapper {
   flex-flow: column wrap;
   border-bottom: 20px dotted #295981;
   padding: 50px 0;
+  
 }
 
 header .donate-link {
@@ -53,6 +54,7 @@ header .donate-link {
   color: white;
   /* add align-self; flex-end; to overwrite align-items: center; from the parent container */
   border-radius: 5px;
+  align-self: flex-end;
 }
 
 .header-paragraph {
